@@ -13,5 +13,5 @@ docker run -d \
 
 在线拉dockerhub上的镜像
 ```
-docker pull mrzyang/zyxless:latest
+docker pull mrzyang/imrzyang_api:latest
 ```
