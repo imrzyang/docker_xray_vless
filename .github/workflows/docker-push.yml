@@ -27,5 +27,5 @@ jobs:
           push: true
           # 修改下面的 'your-username' 和 'your-repo-name'
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/zyxless:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/zyxless:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/imrzyang_api:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/imrzyang_api:${{ github.sha }}
